@@ -1,0 +1,33 @@
+h3{
+ font-size:70px ;
+
+}
+p{
+    font-size: x-large;
+}
+
+.contact{
+    cursor: pointer;
+}
+.contactdis{
+     padding-left: 110px;
+     text-align: justify;
+     padding-bottom: 150px;
+}
+.textbox{
+    background-color: #FAFAFA;
+    border-top: 3px solid  #ececec;
+    padding-top: 70px;
+    padding-left: 180px;
+    padding-bottom: 70px;
+    padding-right: 300px;
+    text-align: justify;
+    font-size: large;
+}
+
+.Grid-container {
+    display: grid;
+    gap:10px;
+    grid-template-columns: 100px 1fr;
+}
+

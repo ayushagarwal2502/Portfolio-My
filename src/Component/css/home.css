@@ -1,0 +1,13 @@
+.home{
+    background-color: white;
+}
+p{
+   color: lightblack;
+}
+
+.homePage{
+    background-color: #FAFAFA;
+    border-top: 3px solid  #ececec;
+    padding-bottom: 70px;
+    padding-top: 70px;
+} 

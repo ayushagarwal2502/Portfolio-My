@@ -1,0 +1,33 @@
+.menubar{
+     background-color: black;
+     padding-left: 90px;
+     padding-right: 140px; 
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: small;
+    font-weight: 700;
+    color:white;
+}
+
+.animate__animated.animate__fadeInDown{
+    cursor: pointer;
+}
+
+a {
+    
+    text-decoration-line: none;
+    color: white;
+}
+
+a:hover {
+   color: lightgray;
+   opacity: 0.5;
+}
+
+#sidebar a.active {
+    color: lightgray;
+    opacity: 0.5;
+  }

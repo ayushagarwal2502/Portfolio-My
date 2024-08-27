@@ -1,0 +1,45 @@
+.about{
+    cursor: pointer;
+
+}
+.aboutPage{
+    background-color: white; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.about2Page{
+    background-color: #FAFAFA;
+    border-top: 3px solid  #ececec;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-left: 350px;
+    padding-right: 350px;
+    text-align: justify;
+     
+}
+
+.about3Page{
+    background-color: white;
+    border-top: 3px solid  #ececec;
+    padding-top: 10px;
+}
+
+.about4Page{
+    background-color: #FAFAFA;
+    border-top: 3px solid  #ececec;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+#content1 {
+  text-align: justify;
+   padding-right: 220px;
+   font-size: large;
+}
+
+.barContent
+{ 
+    padding-left: 310px;
+    padding-right: 310px;
+
+}

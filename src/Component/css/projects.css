@@ -1,0 +1,81 @@
+
+.portfolioContent h2{
+    font-size: 80px;
+   
+}
+.portfolioContent p{
+    font-size: 20px;
+    font-weight: 200;
+   
+}
+
+.animate__animated.animate__bounceInLeft {
+    text-align: justify;
+    font-weight: 100;
+    position: relative;
+    animation-duration: 3s;  
+    padding-left: 200px;
+}
+
+.project {
+    background-color: white; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+   
+}
+.projectPage2{
+    background-color: #FAFAFA;
+    border-top: 3px solid  #ececec;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.animate__animated.animate__bounceInRight {
+    position: relative;
+    animation-duration: 3s; 
+    padding-right: 130px; 
+
+}
+
+.projectImage {
+    border: 2px solid  #ececec;
+    background-color: white;
+    border-radius: 5px;
+    width: 315px;
+    height: 290px;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+#imageProject {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #dadada;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+  
+}
+.projectPage2Content {
+    padding-left: 350px;
+    padding-bottom: 30px;
+}
+
+#arrow
+{
+  margin-left: 180px;
+  opacity: 0.0;
+}
+
+/* .projectImage #arrow:hover {
+    color: lightgray;
+    opacity: 0.7;
+    
+} */
+
+.projectImage p{
+    text-align: justify;
+    padding-left: 15px;
+    font-weight: 100;
+    font-size: 20px;
+}
