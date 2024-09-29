@@ -18,7 +18,7 @@ const Projects = () => {
  const navigate=useNavigate();
  const proje=()=>
   {
-    navigate('https://shinewithcloth-frontend.onrender.com')
+    window.open("https://shinewithcloth-frontend.onrender.com", "_blank")
   
   }
 
