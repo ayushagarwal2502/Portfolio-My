@@ -12,8 +12,16 @@ import project6  from './Images/projects/whiteboardimage.png';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import 'animate.css';
 import { useNavigate } from 'react-router-dom';
+
+
 const Projects = () => {
  const navigate=useNavigate();
+ const proje=()=>
+  {
+    navigate('/shinewithcloth-frontend.onrender.com')
+  
+  }
+
   const [state, setState] = useState({
     boxShadow:" ",
     maxWidth: " ",
@@ -64,7 +72,7 @@ const Projects = () => {
         <div className='projectPage2'> 
           <div className='projectPage2Content' >
           <Stack direction='horizontal' gap={4}>
-          <div className='projectImage' onClick={()=>{navigate('/shinewithcloth-frontend.onrender.com')}} onMouseEnter={()=>inMouse(0)} onMouseLeave={outMouse} style={hoverIndex===0 ? state:styles} >
+          <div className='projectImage' onClick={proje} onMouseEnter={()=>inMouse(0)} onMouseLeave={outMouse} style={hoverIndex===0 ? state:styles} >
             <img src={project1} alt=" " id="imageProject"  style={{paddingRight:"40px"}}></img>
             <p>Know the Best Answer <br></br> website  <ArrowForwardIosIcon id="arrow" style={hoverIndex===0? opacity:opacities} /></p>
           </div>
