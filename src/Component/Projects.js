@@ -18,7 +18,7 @@ const Projects = () => {
  const navigate=useNavigate();
  const proje=()=>
   {
-    navigate('/shinewithcloth-frontend.onrender.com')
+    navigate('https://shinewithcloth-frontend.onrender.com')
   
   }
 
