@@ -76,7 +76,7 @@ const GamePage = () => {
     }
   }
   const restartButton=()=>{
-      window.location.reload();
+    navigate('/game-Tic-Tac-Toe');
   }
 
   return (
