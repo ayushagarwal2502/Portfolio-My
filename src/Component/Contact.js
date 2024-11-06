@@ -22,10 +22,9 @@ const Contact = () => {
         () => {
           console.log('SUCCESS!');
         },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
+      ).catch(()=>{
+        console.log("error");
+      })
       setValue1('');
       setValue2('');
       setValue3('');
