@@ -16,11 +16,6 @@ import { useNavigate } from 'react-router-dom';
 
 const Projects = () => {
  const navigate=useNavigate();
- const proje=()=>
-  {
-    window.open("https://shinewithcloth-frontend.onrender.com", "_blank")
-  
-  }
 
   const [state, setState] = useState({
     boxShadow:" ",
@@ -72,7 +67,7 @@ const Projects = () => {
         <div className='projectPage2'> 
           <div className='projectPage2Content' >
           <Stack direction='horizontal' gap={4}>
-          <div className='projectImage' onClick={proje} onMouseEnter={()=>inMouse(0)} onMouseLeave={outMouse} style={hoverIndex===0 ? state:styles} >
+          <div className='projectImage' onClick={()=>{window.open("https://shinewithcloth-frontend.onrender.com", "_blank")}} onMouseEnter={()=>inMouse(0)} onMouseLeave={outMouse} style={hoverIndex===0 ? state:styles} >
             <img src={project1} alt=" " id="imageProject"  style={{paddingRight:"40px"}}></img>
             <p>Know the Best Answer <br></br> website  <ArrowForwardIosIcon id="arrow" style={hoverIndex===0? opacity:opacities} /></p>
           </div>
@@ -84,11 +79,11 @@ const Projects = () => {
           </div>
           <div className='projectPage2Content'>
           <Stack direction='horizontal' gap={4}>
-          <div className='projectImage' onMouseEnter={()=>inMouse(3)} onMouseLeave={outMouse} style={hoverIndex===3 ? state:styles} >
+          <div className='projectImage' onClick={()=>{window.open("https://shinewithcloth-frontend.onrender.com", "_blank")}} onMouseEnter={()=>inMouse(3)} onMouseLeave={outMouse} style={hoverIndex===3 ? state:styles} >
             <img src={project3} alt=" " id="imageProject"  style={{paddingRight:"40px"}}></img>
             <p >Your own wardrobe <br></br> website  <ArrowForwardIosIcon id="arrow" style={hoverIndex===3? opacity:opacities} /></p>
           </div>
-          <div className='projectImage' onMouseEnter={()=>inMouse(4)} onMouseLeave={outMouse} style={hoverIndex===4 ? state:styles}>
+          <div className='projectImage'onClick={()=>{window.open("https://hotelbooking-client-ktto.onrender.com", "_blank")}}  onMouseEnter={()=>inMouse(4)} onMouseLeave={outMouse} style={hoverIndex===4 ? state:styles}>
             <img src={project4} alt=" " id="imageProject"  style={{paddingLeft:"40px"}}></img>
             <p>Rethinking Hotel Booking <br></br> website <ArrowForwardIosIcon id="arrow" style={hoverIndex===4 ? opacity:opacities}/> </p>
           </div>
@@ -96,11 +91,11 @@ const Projects = () => {
           </div>
           <div className='projectPage2Content'>
           <Stack direction='horizontal' gap={4}>
-          <div className='projectImage'onMouseEnter={()=>inMouse(5)} onMouseLeave={outMouse} style={hoverIndex===5 ? state:styles}>
+          <div className='projectImage' onClick={()=>{window.open("https://heloguys-frontend.onrender.com", "_blank")}} onMouseEnter={()=>inMouse(5)} onMouseLeave={outMouse} style={hoverIndex===5 ? state:styles}>
             <img src={project5} alt=" " id="imageProject" style={{paddingRight:"40px"}}></img>
             <p>Video chat with anyone  <br></br> website  <ArrowForwardIosIcon id="arrow" style={hoverIndex===5? opacity:opacities} /></p>
           </div>
-          <div className='projectImage' onMouseEnter={()=>inMouse(6)} onMouseLeave={outMouse} style={hoverIndex===6 ? state:styles}>
+          <div className='projectImage' onClick={()=>{window.open("https://shinewithcloth-frontend.onrender.com", "_blank")}} onMouseEnter={()=>inMouse(6)} onMouseLeave={outMouse} style={hoverIndex===6 ? state:styles}>
             <img src={project6} alt=" " id="imageProject"  style={{paddingLeft:"40px"}}></img>
             <p>Draw your Design <br></br> website <ArrowForwardIosIcon id="arrow" style={hoverIndex===6 ? opacity:opacities}/> </p>
           </div>
